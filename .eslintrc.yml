@@ -1,0 +1,71 @@
+---
+env:
+  node: true
+  # es6: true
+rules:
+  arrow-spacing: error
+  comma-spacing: error
+  computed-property-spacing: error
+  constructor-super: error
+  dot-notation: error
+  keyword-spacing: error
+  # indent: 2
+  no-alert: error
+  no-caller: error
+  no-class-assign: error
+  no-cond-assign: error
+  no-const-assign: error
+  no-constant-condition: error
+  no-debugger: error
+  no-dupe-args: error
+  no-dupe-keys: error
+  no-dupe-class-members: error
+  no-duplicate-case: error
+  no-empty: error
+  no-eval: error
+  no-ex-assign: error
+  no-extra-bind: error
+  no-extra-boolean-cast: error
+  no-extra-semi: error
+  no-extend-native: error
+  no-global-assign: error
+  no-implied-eval: error
+  no-inner-declarations: error
+  no-invalid-this: error
+  no-func-assign: error
+  no-invalid-regexp: error
+  no-labels: error
+  no-loop-func: error
+  no-mixed-spaces-and-tabs: error
+  no-multi-spaces: error
+  no-multi-str: error
+  no-new: error
+  no-new-func: error
+  no-new-object: error
+  no-new-wrappers: error
+  no-octal: error
+  no-redeclare: error
+  no-self-compare: error
+  no-spaced-func: error
+  no-sparse-arrays: error
+  no-this-before-super: error
+  no-trailing-spaces: error
+  no-undef: error
+  no-unneeded-ternary: error
+  no-unused-vars: error
+  no-useless-concat: error
+  no-var: error
+  object-shorthand: error
+  operator-assignment: error
+  prefer-arrow-callback: error
+  prefer-const: error
+  quotes: [2, "single", { "avoidEscape": true }]
+  # require-jsdoc: error
+  semi: error
+  template-curly-spacing: error
+  use-isnan: error
+  # valid-jsdoc: error
+  valid-typeof: error
+  yield-star-spacing: error
+parserOptions:
+  sourceType: module
