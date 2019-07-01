@@ -9,6 +9,7 @@
     "yeoman-environment": "^2.0.5",
     "yeoman-generator": "^2.0.1"
   },
+  "homepage": "https://github.com/JoMartinezZhu/henry-yo-merge.git",
   "description": "yeoman custom ui to resolve conflict with vscode",
   "devDependencies": {
     "eslint": "^4.14.0",
@@ -26,14 +27,15 @@
   "main": "index.js",
   "name": "henry-yo-merge",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/JoMartinezZhu/henry-yo-merge.git"
   },
   "scripts": {
-    "commitmsg": "validate-commit-msg",
     "eslint": "eslint",
     "lint": "eslint '**/*.js'",
     "release": "standard-version",
     "standard-version": "standard-version"
   },
-  "version": "1.1.0"
+  "version": "0.0.2",
+  "license": "ISC"
 }
